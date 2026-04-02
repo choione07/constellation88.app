@@ -1,0 +1,957 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF82502F2F32C9FB003FC50E /* ConstellationWidgetsExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = CF000011AAAAAAAA00000001 /* ConstellationWidgetsExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BF5289432F224CAA00B7C0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF52892D2F224CA900B7C0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5289342F224CA900B7C0C9;
+			remoteInfo = Constellation;
+		};
+		BF52894D2F224CAA00B7C0C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF52892D2F224CA900B7C0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF5289342F224CA900B7C0C9;
+			remoteInfo = Constellation;
+		};
+		BF8250302F32C9FB003FC50E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF52892D2F224CA900B7C0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF000010AAAAAAAA00000001;
+			remoteInfo = ConstellationWidgetsExtension;
+		};
+		CF000001AAAAAAAA00000001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BF52892D2F224CA900B7C0C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CF000010AAAAAAAA00000001;
+			remoteInfo = ConstellationWidgetsExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CF000002AAAAAAAA00000001 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BF82502F2F32C9FB003FC50E /* ConstellationWidgetsExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF5289352F224CA900B7C0C9 /* Constellation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Constellation.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF5289422F224CAA00B7C0C9 /* ConstellationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstellationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF52894C2F224CAA00B7C0C9 /* ConstellationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ConstellationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CF000011AAAAAAAA00000001 /* ConstellationWidgetsExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = ConstellationWidgetsExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BF528D432F22603800B7C0C9 /* Exceptions for "Constellation" folder in "ConstellationTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"illustrations/andromeda-original.png",
+				illustrations/andromeda.png,
+				illustrations/antlia.png,
+				illustrations/apus.png,
+				illustrations/aquarius.png,
+				illustrations/aquila.png,
+				illustrations/ara.png,
+				illustrations/argonavis.png,
+				illustrations/aries.png,
+				illustrations/auriga.png,
+				illustrations/bootes.png,
+				illustrations/caelum.png,
+				illustrations/camelopardalis.png,
+				illustrations/cancer.png,
+				"illustrations/canes-venatici.png",
+				"illustrations/canis-major.png",
+				"illustrations/canis-minor.png",
+				illustrations/capricornus.png,
+				illustrations/cassiopeia.png,
+				illustrations/centaurus.png,
+				illustrations/cepheus.png,
+				illustrations/cetus.png,
+				illustrations/chamaeleon.png,
+				illustrations/circinus.png,
+				illustrations/columba.png,
+				"illustrations/coma-berenices.png",
+				"illustrations/corona-australis.png",
+				"illustrations/corona-borealis.png",
+				illustrations/corvus.png,
+				illustrations/crater.png,
+				illustrations/crux.png,
+				illustrations/cygnus.png,
+				illustrations/delphinus.png,
+				illustrations/dorado.png,
+				illustrations/draco.png,
+				illustrations/equuleus.png,
+				illustrations/eridanus.png,
+				illustrations/fornax.png,
+				illustrations/gemini.png,
+				illustrations/grus.png,
+				illustrations/hercules.png,
+				illustrations/horlogium.png,
+				illustrations/hydra.png,
+				illustrations/hydrus.png,
+				illustrations/indus.png,
+				illustrations/lacerta.png,
+				"illustrations/leo-minor.png",
+				illustrations/leo.png,
+				illustrations/lepus.png,
+				illustrations/libra.png,
+				illustrations/lupus.png,
+				illustrations/lynx.png,
+				illustrations/lyra.png,
+				illustrations/mensa.png,
+				illustrations/microscopium.png,
+				illustrations/monoceros.png,
+				illustrations/musca.png,
+				illustrations/norma.png,
+				illustrations/octans.png,
+				illustrations/ophiuchus.png,
+				illustrations/orion.png,
+				illustrations/pavo.png,
+				illustrations/pegasus.png,
+				illustrations/perseus.png,
+				illustrations/phoenix.png,
+				illustrations/pictor.png,
+				illustrations/pisces.png,
+				"illustrations/piscis-austrinus.png",
+				illustrations/pyxis.png,
+				illustrations/reticulum.png,
+				illustrations/sagitta.png,
+				illustrations/sagittarius.png,
+				illustrations/scorpius.png,
+				illustrations/sculptor.png,
+				illustrations/scutum.png,
+				illustrations/sextans.png,
+				illustrations/taurus.png,
+				illustrations/telescopium.png,
+				"illustrations/triangulum-australe.png",
+				illustrations/triangulum.png,
+				illustrations/tucana.png,
+				"illustrations/ursa-major.png",
+				"illustrations/ursa-minor.png",
+				illustrations/virgo.png,
+				illustrations/volans.png,
+				illustrations/vulpecula.png,
+			);
+			target = BF5289412F224CAA00B7C0C9 /* ConstellationTests */;
+		};
+		BF528D442F22603800B7C0C9 /* Exceptions for "Constellation" folder in "ConstellationUITests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				"illustrations/andromeda-original.png",
+				illustrations/andromeda.png,
+				illustrations/antlia.png,
+				illustrations/apus.png,
+				illustrations/aquarius.png,
+				illustrations/aquila.png,
+				illustrations/ara.png,
+				illustrations/argonavis.png,
+				illustrations/aries.png,
+				illustrations/auriga.png,
+				illustrations/bootes.png,
+				illustrations/caelum.png,
+				illustrations/camelopardalis.png,
+				illustrations/cancer.png,
+				"illustrations/canes-venatici.png",
+				"illustrations/canis-major.png",
+				"illustrations/canis-minor.png",
+				illustrations/capricornus.png,
+				illustrations/cassiopeia.png,
+				illustrations/centaurus.png,
+				illustrations/cepheus.png,
+				illustrations/cetus.png,
+				illustrations/chamaeleon.png,
+				illustrations/circinus.png,
+				illustrations/columba.png,
+				"illustrations/coma-berenices.png",
+				"illustrations/corona-australis.png",
+				"illustrations/corona-borealis.png",
+				illustrations/corvus.png,
+				illustrations/crater.png,
+				illustrations/crux.png,
+				illustrations/cygnus.png,
+				illustrations/delphinus.png,
+				illustrations/dorado.png,
+				illustrations/draco.png,
+				illustrations/equuleus.png,
+				illustrations/eridanus.png,
+				illustrations/fornax.png,
+				illustrations/gemini.png,
+				illustrations/grus.png,
+				illustrations/hercules.png,
+				illustrations/horlogium.png,
+				illustrations/hydra.png,
+				illustrations/hydrus.png,
+				illustrations/indus.png,
+				illustrations/lacerta.png,
+				"illustrations/leo-minor.png",
+				illustrations/leo.png,
+				illustrations/lepus.png,
+				illustrations/libra.png,
+				illustrations/lupus.png,
+				illustrations/lynx.png,
+				illustrations/lyra.png,
+				illustrations/mensa.png,
+				illustrations/microscopium.png,
+				illustrations/monoceros.png,
+				illustrations/musca.png,
+				illustrations/norma.png,
+				illustrations/octans.png,
+				illustrations/ophiuchus.png,
+				illustrations/orion.png,
+				illustrations/pavo.png,
+				illustrations/pegasus.png,
+				illustrations/perseus.png,
+				illustrations/phoenix.png,
+				illustrations/pictor.png,
+				illustrations/pisces.png,
+				"illustrations/piscis-austrinus.png",
+				illustrations/pyxis.png,
+				illustrations/reticulum.png,
+				illustrations/sagitta.png,
+				illustrations/sagittarius.png,
+				illustrations/scorpius.png,
+				illustrations/sculptor.png,
+				illustrations/scutum.png,
+				illustrations/sextans.png,
+				illustrations/taurus.png,
+				illustrations/telescopium.png,
+				"illustrations/triangulum-australe.png",
+				illustrations/triangulum.png,
+				illustrations/tucana.png,
+				"illustrations/ursa-major.png",
+				"illustrations/ursa-minor.png",
+				illustrations/virgo.png,
+				illustrations/volans.png,
+				illustrations/vulpecula.png,
+			);
+			target = BF52894B2F224CAA00B7C0C9 /* ConstellationUITests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BF5289372F224CA900B7C0C9 /* Constellation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BF528D432F22603800B7C0C9 /* Exceptions for "Constellation" folder in "ConstellationTests" target */,
+				BF528D442F22603800B7C0C9 /* Exceptions for "Constellation" folder in "ConstellationUITests" target */,
+			);
+			path = Constellation;
+			sourceTree = "<group>";
+		};
+		BF5289452F224CAA00B7C0C9 /* ConstellationTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ConstellationTests;
+			sourceTree = "<group>";
+		};
+		BF52894F2F224CAA00B7C0C9 /* ConstellationUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ConstellationUITests;
+			sourceTree = "<group>";
+		};
+		CF000012AAAAAAAA00000001 /* ConstellationWidgets */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ConstellationWidgets;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF5289322F224CA900B7C0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF52893F2F224CAA00B7C0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5289492F224CAA00B7C0C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF00000EAAAAAAAA00000001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF52892C2F224CA900B7C0C9 = {
+			isa = PBXGroup;
+			children = (
+				BF5289372F224CA900B7C0C9 /* Constellation */,
+				CF000012AAAAAAAA00000001 /* ConstellationWidgets */,
+				BF5289452F224CAA00B7C0C9 /* ConstellationTests */,
+				BF52894F2F224CAA00B7C0C9 /* ConstellationUITests */,
+				BF82502E2F32C9FB003FC50E /* Frameworks */,
+				BF5289362F224CA900B7C0C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF5289362F224CA900B7C0C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF5289352F224CA900B7C0C9 /* Constellation.app */,
+				BF5289422F224CAA00B7C0C9 /* ConstellationTests.xctest */,
+				BF52894C2F224CAA00B7C0C9 /* ConstellationUITests.xctest */,
+				CF000011AAAAAAAA00000001 /* ConstellationWidgetsExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF82502E2F32C9FB003FC50E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF5289342F224CA900B7C0C9 /* Constellation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5289562F224CAA00B7C0C9 /* Build configuration list for PBXNativeTarget "Constellation" */;
+			buildPhases = (
+				BF5289312F224CA900B7C0C9 /* Sources */,
+				BF5289322F224CA900B7C0C9 /* Frameworks */,
+				BF5289332F224CA900B7C0C9 /* Resources */,
+				CF000002AAAAAAAA00000001 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CF000005AAAAAAAA00000001 /* PBXTargetDependency */,
+				BF8250312F32C9FB003FC50E /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF5289372F224CA900B7C0C9 /* Constellation */,
+			);
+			name = Constellation;
+			packageProductDependencies = (
+			);
+			productName = Constellation;
+			productReference = BF5289352F224CA900B7C0C9 /* Constellation.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BF5289412F224CAA00B7C0C9 /* ConstellationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF5289592F224CAA00B7C0C9 /* Build configuration list for PBXNativeTarget "ConstellationTests" */;
+			buildPhases = (
+				BF52893E2F224CAA00B7C0C9 /* Sources */,
+				BF52893F2F224CAA00B7C0C9 /* Frameworks */,
+				BF5289402F224CAA00B7C0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF5289442F224CAA00B7C0C9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF5289452F224CAA00B7C0C9 /* ConstellationTests */,
+			);
+			name = ConstellationTests;
+			packageProductDependencies = (
+			);
+			productName = ConstellationTests;
+			productReference = BF5289422F224CAA00B7C0C9 /* ConstellationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BF52894B2F224CAA00B7C0C9 /* ConstellationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF52895C2F224CAA00B7C0C9 /* Build configuration list for PBXNativeTarget "ConstellationUITests" */;
+			buildPhases = (
+				BF5289482F224CAA00B7C0C9 /* Sources */,
+				BF5289492F224CAA00B7C0C9 /* Frameworks */,
+				BF52894A2F224CAA00B7C0C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BF52894E2F224CAA00B7C0C9 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				BF52894F2F224CAA00B7C0C9 /* ConstellationUITests */,
+			);
+			name = ConstellationUITests;
+			packageProductDependencies = (
+			);
+			productName = ConstellationUITests;
+			productReference = BF52894C2F224CAA00B7C0C9 /* ConstellationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		CF000010AAAAAAAA00000001 /* ConstellationWidgetsExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF000014AAAAAAAA00000001 /* Build configuration list for PBXNativeTarget "ConstellationWidgetsExtension" */;
+			buildPhases = (
+				CF00000DAAAAAAAA00000001 /* Sources */,
+				CF00000EAAAAAAAA00000001 /* Frameworks */,
+				CF00000FAAAAAAAA00000001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CF000012AAAAAAAA00000001 /* ConstellationWidgets */,
+			);
+			name = ConstellationWidgetsExtension;
+			packageProductDependencies = (
+			);
+			productName = ConstellationWidgetsExtension;
+			productReference = CF000011AAAAAAAA00000001 /* ConstellationWidgetsExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF52892D2F224CA900B7C0C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2620;
+				LastUpgradeCheck = 2620;
+				TargetAttributes = {
+					BF5289342F224CA900B7C0C9 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+					BF5289412F224CAA00B7C0C9 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = BF5289342F224CA900B7C0C9;
+					};
+					BF52894B2F224CAA00B7C0C9 = {
+						CreatedOnToolsVersion = 26.2;
+						TestTargetID = BF5289342F224CA900B7C0C9;
+					};
+					CF000010AAAAAAAA00000001 = {
+						CreatedOnToolsVersion = 26.2;
+					};
+				};
+			};
+			buildConfigurationList = BF5289302F224CA900B7C0C9 /* Build configuration list for PBXProject "Constellation" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF52892C2F224CA900B7C0C9;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BF5289362F224CA900B7C0C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF5289342F224CA900B7C0C9 /* Constellation */,
+				CF000010AAAAAAAA00000001 /* ConstellationWidgetsExtension */,
+				BF5289412F224CAA00B7C0C9 /* ConstellationTests */,
+				BF52894B2F224CAA00B7C0C9 /* ConstellationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF5289332F224CA900B7C0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5289402F224CAA00B7C0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF52894A2F224CAA00B7C0C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF00000FAAAAAAAA00000001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF5289312F224CA900B7C0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF52893E2F224CAA00B7C0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF5289482F224CAA00B7C0C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CF00000DAAAAAAAA00000001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BF5289442F224CAA00B7C0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5289342F224CA900B7C0C9 /* Constellation */;
+			targetProxy = BF5289432F224CAA00B7C0C9 /* PBXContainerItemProxy */;
+		};
+		BF52894E2F224CAA00B7C0C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BF5289342F224CA900B7C0C9 /* Constellation */;
+			targetProxy = BF52894D2F224CAA00B7C0C9 /* PBXContainerItemProxy */;
+		};
+		BF8250312F32C9FB003FC50E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF000010AAAAAAAA00000001 /* ConstellationWidgetsExtension */;
+			targetProxy = BF8250302F32C9FB003FC50E /* PBXContainerItemProxy */;
+		};
+		CF000005AAAAAAAA00000001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CF000010AAAAAAAA00000001 /* ConstellationWidgetsExtension */;
+			targetProxy = CF000001AAAAAAAA00000001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		BF5289542F224CAA00B7C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = TCK79VCCUM;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF5289552F224CAA00B7C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = TCK79VCCUM;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF5289572F224CAA00B7C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCK79VCCUM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Constellation uses your location to calculate accurate moon rise and set times.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.Constellation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF5289582F224CAA00B7C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCK79VCCUM;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Constellation uses your location to calculate accurate moon rise and set times.";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.Constellation;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BF52895A2F224CAA00B7C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCK79VCCUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.ConstellationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Constellation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Constellation";
+			};
+			name = Debug;
+		};
+		BF52895B2F224CAA00B7C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCK79VCCUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.ConstellationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Constellation.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Constellation";
+			};
+			name = Release;
+		};
+		BF52895D2F224CAA00B7C0C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCK79VCCUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.ConstellationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Constellation;
+			};
+			name = Debug;
+		};
+		BF52895E2F224CAA00B7C0C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCK79VCCUM;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.ConstellationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Constellation;
+			};
+			name = Release;
+		};
+		CF000015AAAAAAAA00000001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCK79VCCUM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ConstellationWidgetsInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Constellation Widgets";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.Constellation.ConstellationWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CF000016AAAAAAAA00000001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = TCK79VCCUM;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = ConstellationWidgetsInfo.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Constellation Widgets";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.one.Constellation.ConstellationWidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF5289302F224CA900B7C0C9 /* Build configuration list for PBXProject "Constellation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5289542F224CAA00B7C0C9 /* Debug */,
+				BF5289552F224CAA00B7C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5289562F224CAA00B7C0C9 /* Build configuration list for PBXNativeTarget "Constellation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF5289572F224CAA00B7C0C9 /* Debug */,
+				BF5289582F224CAA00B7C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF5289592F224CAA00B7C0C9 /* Build configuration list for PBXNativeTarget "ConstellationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF52895A2F224CAA00B7C0C9 /* Debug */,
+				BF52895B2F224CAA00B7C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF52895C2F224CAA00B7C0C9 /* Build configuration list for PBXNativeTarget "ConstellationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF52895D2F224CAA00B7C0C9 /* Debug */,
+				BF52895E2F224CAA00B7C0C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF000014AAAAAAAA00000001 /* Build configuration list for PBXNativeTarget "ConstellationWidgetsExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF000015AAAAAAAA00000001 /* Debug */,
+				CF000016AAAAAAAA00000001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF52892D2F224CA900B7C0C9 /* Project object */;
+}
